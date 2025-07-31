@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border-left: 2px solid green;
+}
+
+.column:first-child {
+  border-left: none; /* No border on first column */
+}
+
